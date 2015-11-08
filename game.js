@@ -48,6 +48,16 @@ else {
 	alert("Ok...I don't know what to say " + name + " ...maybe we shouldn't be friends anymore");
 }
 
+//question six 
+var questionSix = prompt('Did you enjoy the game we just played?')
+if (questionSix === 'yes') {
+	alert('Awesome ' + name + '! I am glad you enjoyed it!');
+}
+else {
+	alert('Well I will try harder making a better game next time, maybe you will like it more!')
+}
+
+
 
 //true false map...probably a better more elegant way to do this...
 //zero correct
